@@ -1,5 +1,4 @@
 import logo from "../styles/images/logo.png";
-// import "../styles/menu.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
