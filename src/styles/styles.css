@@ -42,6 +42,7 @@ nav img {
   height: 60px;
   filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.3137254902));
 }
+
 nav a:not(:first-child) {
   text-decoration: none;
   text-transform: uppercase;
@@ -50,8 +51,10 @@ nav a:not(:first-child) {
   transition: all 300ms ease-in-out;
   padding: 40px 15px 40px 15px;
 }
+
 nav a:hover {
   color: #f1f1f1;
+  font-size: 20px;
 }
 
 main {
@@ -119,13 +122,29 @@ footer a {
   font-family: "Roboto Mono", monospace;
 }
 
-.contact {
-  background: url("../../src/styles/images/background1.png")
-    no-repeat;
+.pages {
   background-size: cover;
   width: 100%;
   height: 100vh;
   z-index: 0;
+}
+
+.pages.about {
+  background: url("../../src/styles/images/background1.png")
+    no-repeat;
+  background-size: cover;
+}
+
+.pages.writing {
+  background: url("../../src/styles/images/background3.png")
+    no-repeat;
+  background-size: cover;
+}
+
+.pages.contact {
+  background: url("../../src/styles/images/background2.png")
+    no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 800px) {
