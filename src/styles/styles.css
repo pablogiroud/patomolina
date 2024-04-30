@@ -33,7 +33,6 @@ main h1 {
   position: relative;
   top: 220px;
   z-index: 2;
-  font-family: "Montserrat";
 }
 main h2 {
   text-align: center;
@@ -60,7 +59,7 @@ footer {
   text-align: center;
   font-family: "Roboto Mono", monospace;
   height: 20px;
-  background-color: rgba(37,36,37, 0.8);
+  background-color: rgba(37, 36, 37, 0.8);
 }
 
 footer p {
@@ -86,19 +85,39 @@ footer a {
 }
 
 .pages.about {
-  background: url("../../src/styles/images/background1.png")
-    no-repeat;
+  background: url("../../src/styles/images/background1.png") no-repeat;
   background-size: cover;
 }
 
 .pages.writing {
-  background: url("../../src/styles/images/background3.png")
-    no-repeat;
+  background: url("../../src/styles/images/background3.png") no-repeat;
   background-size: cover;
 }
 
 .pages.contact {
-  background: url("../../src/styles/images/background2.png")
-    no-repeat;
+  background: url("../../src/styles/images/background2.png") no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main video {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100vh;
+  }
+  main h1 {
+    top: 15vh;
+  }
+  main h2 {
+    font-size: 26px;
+    top: 10vh;
+    padding: 0px 5% 0px 5%;
+  }
 }

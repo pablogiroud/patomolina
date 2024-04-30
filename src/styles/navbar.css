@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   z-index: 3;
+  margin: 5px 0 5px 0;
 }
 
 nav img {
@@ -29,6 +30,7 @@ nav img {
 }
 
 .logo {
+  display: flex;
 }
 
 .menu-icon {
@@ -36,11 +38,12 @@ nav img {
 }
 
 .nav-elements {
+  margin: 0;
 }
 
 .nav-elements ul {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   list-style-type: none;
 }
 
@@ -49,22 +52,17 @@ nav img {
 }
 
 .nav-elements ul a {
-  font-size: 16px;
-  font-weight: 400;
-  color: #2f234f;
-  text-decoration: none;
-  
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5019607843);
-  font-size: 18px;
+  font-size: 100%;
   transition: all 300ms ease-in-out;
   padding: 40px 15px 40px 15px;
 }
 
 .nav-elements ul a.active {
-  color: #574c4c;
-  font-weight: 500;
+  color: #d6d6d6;
+  font-weight: 120%;
   position: relative;
 }
 
@@ -84,11 +82,13 @@ nav img {
   }
 }
 
+/* Mobile responsive */
+
 @media (max-width: 600px) {
   .container {
-    max-width: 430px;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 45px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -111,11 +111,13 @@ nav img {
     display: none;
   }
 
+  /* Navbar responsive */
+
   .nav-elements {
     position: absolute;
     right: 0;
     top: 3vh;
-    background-color: rgba(37,36,37, 0.8);
+    background-color: rgba(37, 36, 37, 0.8);
     width: 0px;
     height: calc(110vh - 50px);
     transition: all 0.3s ease-in;
@@ -137,9 +139,22 @@ nav img {
     margin-top: 50px;
     justify-content: flex-start;
   }
-  
-footer {
+
+  .nav-elements ul a.active::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 2px;
+    height: 50%;
+    background-color: #574c4c;
+  }
+
+  /* Footer responsive */
+
+  footer {
     height: 2% !important;
+    padding: 5px 5px 5px 0;
   }
 
   footer p {
@@ -151,10 +166,9 @@ footer {
     padding-top: 0px;
     padding-left: 0;
   }
-  
+
   footer a {
     color: #eeeff1;
     font-family: "Roboto Mono", monospace;
   }
-
 }
