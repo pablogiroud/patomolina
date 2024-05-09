@@ -1,73 +1,158 @@
-form {
-    margin: 26vh 16% 0 16%;
-  }
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 30% 0% 30%;
+}
 
-  .ContacContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    z-index: 3;
-    margin: 5px 0 5px 0;
-  }
+.form-login a {
+  padding-top: 8%;
+  text-decoration: none;
+}
 
-  .formRow {
-    margin: 10px 0 20px 0;
-  }
+.input-form {
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(2.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 80%;
+  margin: 2%;
+}
 
-  .formInput {
-    padding: 10px 10px;
-    width: 90%;
-  }
+.btnSCV-long {
+  align-items: center;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(2.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 80%;
+  margin: 2%;
+}
 
-  .errorMessage {
-    color: #f45532;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-  }
+.btnSCV-register {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
 
-  .submit-btn {
-    padding: 15px 50px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-  }
+.btnSCV-register:hover,
+.btnSCV-register:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.btnSCV-register:hover {
+  transform: translateY(-1px);
+}
 
 @media (max-width: 600px) {
-  form {
-    margin: 20vh 20px 20px 20px;
+  .form-login {
+    margin: 30% 5% 0% 10%;
   }
 
-  .ContacContainer {
-    display: flex;
-    flex-direction: row;
+  .form-login a {
+    padding-top: 8%;
+    text-decoration: none;
+  }
+
+  .input-form {
     align-items: center;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     justify-content: center;
-    width: 100%;
-    z-index: 3;
-    margin: 5px 0 5px 0;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(2.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 80%;
+    margin: 2%;
   }
 
-  .formRow {
-    margin: 10px 0 20px 0;
+  .btnSCV-long {
+    align-items: center;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(2.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 80%;
+    margin: 2%;
   }
 
-  .formInput {
-    padding: 10px 10px;
-    width: 90%;
+  .btnSCV-register {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    color: #ffffff;
   }
 
-  .errorMessage {
-    color: #f45532;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
+  .btnSCV-register:hover,
+  .btnSCV-register:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
   }
 
-  .submit-btn {
-    padding: 15px 50px;
-    border-radius: 10px;
-    margin-bottom: 25px;
+  .btnSCV-register:hover {
+    transform: translateY(-1px);
   }
 }

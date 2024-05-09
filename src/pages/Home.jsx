@@ -23,11 +23,12 @@ function Home() {
                 <meta name="viewport" content="width=device-width - initial-scale=1.0" />
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"></link>
             </Helmet>
+            <h1>{title}</h1>
+            <h2>{description}</h2>
             <video autoPlay loop muted id="video">
                 <source src={video} type="video/mp4" />
             </video>
-            <h1>{title}</h1>
-            <h2>{description}</h2>
+
         </main>
     );
 }
