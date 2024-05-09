@@ -87,7 +87,7 @@ function Contact() {
                             />
                             {errors.subject && touched.subject && errors.subject}
                             <textarea
-                                placeholder="write me please :)"
+                                placeholder="text me please :)"
                                 className='input-form'
                                 type="text"
                                 name="message"

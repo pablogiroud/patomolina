@@ -10,6 +10,7 @@
 /build
 
 # misc
+.env
 .env.local
 .env.dev.local
 .env.test.local
