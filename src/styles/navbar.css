@@ -38,6 +38,7 @@ nav img {
 
 .nav-elements {
   margin: 0;
+  z-index: 3;
 }
 
 .nav-elements ul {

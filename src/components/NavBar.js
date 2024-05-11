@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { ReactComponent as Hamburger } from "../assets/icons/hamburguer.svg";
@@ -13,6 +13,12 @@ const Navbar = () => {
     setShowNavbar(!showNavbar);
   };
 
+  // useEffect(() => {
+  //   setTimeout(toggleHeader, 3000);
+  // }, []);
+
+  // const toggleHeader = () => setShowNavbar(!showNavbar);
+
   return (
     <div>
       <nav className="navbar">
@@ -23,7 +29,7 @@ const Navbar = () => {
           <div className="menu-icon" onClick={handleShowNavbar}>
             <Hamburger />
           </div>
-          <div className={`nav-elements  ${showNavbar && "active"}`}>
+          <div className={`nav-elements  ${showNavbar && 'active'}`}>
             <ul>
               <li>
                 <NavLink to="/">Home</NavLink>
