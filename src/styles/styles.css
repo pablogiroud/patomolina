@@ -41,8 +41,8 @@ main h2 {
   text-transform: uppercase;
   font-size: 32px;
   position: relative;
-  margin: 5% 0% 0% 0%;
-  z-index: 2;
+  margin: 5% 20% 0% 20%;
+  z-index: 1;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -115,11 +115,11 @@ footer a {
     height: 100vh;
   }
   main h1 {
-    margin: 30% 5% 0px 5%;
+    margin: 30% 5% 15px 5%;
   }
   main h2 {
     font-size: 26px;
-    margin: 15% 5% 0px 5%;
+    margin: 10% 5% 0px 5%;
     padding: 0px 5% 0px 5%;
   }
 }
