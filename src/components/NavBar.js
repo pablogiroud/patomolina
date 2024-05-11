@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { ReactComponent as Hamburger } from "../assets/icons/hamburguer.svg";
@@ -12,12 +12,6 @@ const Navbar = () => {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
-
-  // useEffect(() => {
-  //   setTimeout(toggleHeader, 3000);
-  // }, []);
-
-  // const toggleHeader = () => setShowNavbar(!showNavbar);
 
   return (
     <div>
