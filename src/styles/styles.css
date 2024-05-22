@@ -122,4 +122,9 @@ footer a {
     margin: 10% 5% 0px 5%;
     padding: 0px 5% 0px 5%;
   }
+
+  .pages.contact h1 {
+    margin: 10% 5% 15px 5%;
+  }
+
 }
