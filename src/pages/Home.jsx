@@ -30,8 +30,8 @@ function Home() {
                 <h2>{description0}</h2>
                 <h2>{description1}</h2>
                 <h2>{description2}</h2>
-                <video autoPlay loop muted id="video">
-                    <source src={video} type="video/mp4" />
+                <video autoPlay="autoplay" loop="loop" muted defaultmuted="true" playsInline preload="auto" id="video">
+                    <source src={video} type="video/mp4"/>
                 </video>
             </HelmetProvider>
         </main>
