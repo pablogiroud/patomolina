@@ -26,16 +26,16 @@ const Navbar = () => {
           <div className={`nav-elements  ${showNavbar && 'active'}`}>
             <ul>
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/">Principal</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about">Bio</NavLink>
               </li>
               <li>
-                <NavLink to="/nextShows">Next Shows</NavLink>
+                <NavLink to="/nextShows">Proximas fechas</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact">Contacto</NavLink>
               </li>
             </ul>
           </div>

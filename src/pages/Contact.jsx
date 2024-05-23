@@ -7,10 +7,8 @@ import '../styles/form.css'
 import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
-    let contact = 'Contact me';
-
+    let contact = 'Contactame';
     const [captcha, setCaptcha] = useState();
-
     const handleSubmit = async (values) => {
         try {
             await emailjs.send(
@@ -19,11 +17,11 @@ function Contact() {
                 values,
                 process.env.REACT_APP_PUBLIC_KEY,
             ).then(function (response) {
-                successAlert('Done! we have your message.')
+                successAlert('Listo! ya recibi tu mensaje.')
             });
         } catch (e) {
             console.log(e);
-            errorAlert(`Someting went wrong: \n ${e}`)
+            errorAlert(`Algo salio mal: \n ${e}`)
         }
     }
 
@@ -36,12 +34,12 @@ function Contact() {
                     validate={values => {
                         const errors = {};
                         if (!values.email) {
-                            errors.email = 'Please, enter a valid email address';
+                            errors.email = 'Por favor, necesito un email valido';
                         } else if (
                             !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
                         ) {
                         } else if (!values.name) {
-                            errors.name = 'Pleas, enter a name';
+                            errors.name = 'Ingresa tu nombre por favor';
                         }
                         return errors;
                     }}
@@ -60,7 +58,7 @@ function Contact() {
                     }) => (
                         <form className='form-login' onSubmit={handleSubmit}>
                             <input
-                                placeholder="Name"
+                                placeholder="Nombre"
                                 className='input-form'
                                 type="text"
                                 name="name"
@@ -80,7 +78,7 @@ function Contact() {
                             />
                             {errors.email && touched.email && errors.email}
                             <input
-                                placeholder="Subject"
+                                placeholder="Asunto"
                                 className='input-form'
                                 type="text"
                                 name="subject"
@@ -90,7 +88,7 @@ function Contact() {
                             />
                             {errors.subject && touched.subject && errors.subject}
                             <textarea
-                                placeholder="text me please :)"
+                                placeholder="Aqui podes dejarme tu consulta"
                                 className='input-form'
                                 type="text"
                                 name="message"
@@ -107,7 +105,7 @@ function Contact() {
                                 className='btnSCV-long btnSCV-register'
                                 type="submit"
                                 disabled={isSubmitting || !captcha}>
-                                Submit
+                                Enviar
                             </button>
                         </form>
                     )}
