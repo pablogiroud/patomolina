@@ -86,20 +86,20 @@ footer a {
 }
 
 .pages.about {
-  background: url("../../src/styles/images/background1.png") no-repeat;
+  background: url("../../src/assets/images/background1.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .pages.nextShows {
-  background: url("../../src/styles/images/background3.png") no-repeat;
+  background: url("../../src/assets/images/background3.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
 }
 
 .pages.contact {
-  background: url("../../src/styles/images/background2.png") no-repeat;
+  background: url("../../src/assets/images/background2.png") no-repeat;
   background-size: cover;
   height: 100vh;
 }

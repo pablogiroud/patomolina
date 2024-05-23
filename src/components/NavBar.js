@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import { ReactComponent as Hamburger } from "../assets/images/logo.png";
-import logo from "../../src/styles/images/logo.png";
+import { ReactComponent as Hamburger } from "../assets/icons/hamburguer.svg";
+import logo from "../../src/assets/images/logo.png";
 import "../styles/styles.css";
 import "../styles/navbar.css";
 
