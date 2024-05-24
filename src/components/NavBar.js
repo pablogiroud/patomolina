@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { ReactComponent as Hamburger } from "../assets/icons/hamburguer.svg";
-import logo from "../../src/styles/images/logo.png";
+import logo from "../../src/assets/images/logo.png";
 import "../styles/styles.css";
 import "../styles/navbar.css";
 
@@ -26,16 +26,19 @@ const Navbar = () => {
           <div className={`nav-elements  ${showNavbar && 'active'}`}>
             <ul>
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/">Principal</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about">Bio</NavLink>
               </li>
               <li>
-                <NavLink to="/nextShows">Next Shows</NavLink>
+                <NavLink to="/teaching">Talleres</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/nextShows">Proximas fechas</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contacto</NavLink>
               </li>
             </ul>
           </div>

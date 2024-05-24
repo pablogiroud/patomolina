@@ -131,13 +131,17 @@ nav img {
   .nav-elements ul {
     display: flex;
     flex-direction: column;
-    margin-left: -10px;
+    margin-left: -25px;
   }
 
   .nav-elements ul li {
     margin-right: 10px;
     margin-top: 50px;
     justify-content: flex-start;
+  }
+
+  .nav-elements ul a {
+    padding: 40px 15px 40px 8px;
   }
 
   .nav-elements ul a.active::after {
