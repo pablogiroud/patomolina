@@ -32,6 +32,9 @@ const Navbar = () => {
                 <NavLink to="/about">Bio</NavLink>
               </li>
               <li>
+                <NavLink to="/teaching">Talleres</NavLink>
+              </li>
+              <li>
                 <NavLink to="/nextShows">Proximas fechas</NavLink>
               </li>
               <li>

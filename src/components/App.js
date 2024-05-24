@@ -6,6 +6,7 @@ import Home from "../pages/Home.jsx";
 import About from "../pages/About.jsx";
 import NextShows from "../pages/NextShows.jsx";
 import Contact from "../pages/Contact.jsx";
+import Teaching from "../pages/Teaching.jsx";
 import "../styles/styles.css";
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="teaching" element={<Teaching />} />
           <Route path="nextShows" element={<NextShows />} />
           <Route path="contact" element={<Contact />} />
         </Route>

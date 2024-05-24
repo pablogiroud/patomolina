@@ -81,25 +81,32 @@ footer a {
 .pages {
   background-size: cover;
   width: 100%;
-  /* height: 100vh; */
   z-index: 0;
 }
 
 .pages.about {
-  background: url("../../src/assets/images/background1.png") no-repeat;
+  background: url("../../src/assets/images/02patoguitarra.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 120vh;
+}
+
+.pages.teaching {
+  background: url("../../src/assets/images/03patoflauta.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .pages.nextShows {
-  background: url("../../src/assets/images/background3.png") no-repeat;
+  background: url("../../src/assets/images/05patoteatro.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
 }
 
 .pages.contact {
-  background: url("../../src/assets/images/background2.png") no-repeat;
+  background: url("../../src/assets/images/01patoflauta.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -141,6 +148,12 @@ footer a {
   .pages.about h2 {
     color: rgba(37, 36, 37, 0.8);
     text-shadow: #ccc 5px 0 10px;
+  }
+  .pages.teaching {
+    background: url("../../src/assets/images/03patoflauta.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
   }
   .pages.nextShows {
     background: url("../../src/assets/images/05patoteatro.jpg");
