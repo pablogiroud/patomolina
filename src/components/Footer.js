@@ -5,7 +5,7 @@ function Footer() {
     <footer className="Footer">
       <p>
         Copyright © 2024 - Designed and maintained by{" "}
-        <a href="https://github.com/pablogiroud" target="_blank" rel="noopener noreferrer">Pablo Giroud</a>
+        <a href="https://github.com/pablogiroud" target="_blank" rel="noopener noreferrer">PG</a>
       </p>
     </footer>
   );

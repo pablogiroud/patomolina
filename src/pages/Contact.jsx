@@ -34,7 +34,7 @@ function Contact() {
                     validate={values => {
                         const errors = {};
                         if (!values.email) {
-                            errors.email = 'Por favor, necesito un email valido';
+                            errors.email = 'Ingrese un email valido por favor';
                         } else if (
                             !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
                         ) {

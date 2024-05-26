@@ -9,7 +9,6 @@ import Contact from "../pages/Contact.jsx";
 import Teaching from "../pages/Teaching.jsx";
 import "../styles/styles.css";
 
-
 function App() {
   return (
     <BrowserRouter>
