@@ -88,7 +88,6 @@ footer a {
   background: url("../../src/assets/images/02patoguitarra.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 130vh;
 }
 
 .pages.about h1 {
@@ -100,7 +99,6 @@ footer a {
   background: url("../../src/assets/images/03patoflauta.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* height: 130vh; */
 }
 
 .pages.teaching h1 {
@@ -112,7 +110,6 @@ footer a {
   background: url("../../src/assets/images/05patoteatro.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* height: 100vh; */
 }
 .pages.nextShows h1 {
   font-size: 120px;
