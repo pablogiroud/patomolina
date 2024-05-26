@@ -16,7 +16,7 @@ const cards = [
     id: 2,
     title: "Taller de musica popular argentina",
     image: image2,
-    url: "https://blog.faztweb.com",
+    url: "https://youtube.com/fazttech",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const cards = [
     id: 6,
     title: "Taller de musica popular argentina",
     image: image2,
-    url: "https://blog.faztweb.com",
+    url: "https://youtube.com/fazttech",
   },
 ];
 
