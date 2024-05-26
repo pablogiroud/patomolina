@@ -159,8 +159,10 @@ nav img {
   /* Footer responsive */
 
   footer {
-    height: 2% !important;
-    padding: 5px 5px 5px 0;
+    height: 5% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   footer p {
@@ -169,8 +171,6 @@ nav img {
     font-size: 9px;
     color: #eeeff1;
     text-decoration: none;
-    padding-top: 0px;
-    padding-left: 0;
   }
 
   footer a {

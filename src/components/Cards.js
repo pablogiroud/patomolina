@@ -10,37 +10,37 @@ const cards = [
     id: 1,
     title: "Musica en vivo",
     image: image1,
-    url: "https://patomolina.netlify.app",
+    url: "#!",
   },
   {
     id: 2,
     title: "Taller de musica popular argentina",
     image: image2,
-    url: "https://youtube.com/fazttech",
+    url: "#!",
   },
   {
     id: 3,
     title: "Homenaje a Don Andres Chazarreta",
     image: image3,
-    url: "https://youtube.com/fazttech",
+    url: "#!",
   },
   {
     id: 4,
     title: "Homenaje a Don Andres Chazarreta",
     image: image3,
-    url: "https://youtube.com/fazttech",
+    url: "#!",
   },
   {
     id: 5,
     title: "Homenaje a Don Andres Chazarreta",
     image: image3,
-    url: "https://youtube.com/fazttech",
+    url: "#!",
   },
   {
     id: 6,
     title: "Taller de musica popular argentina",
     image: image2,
-    url: "https://youtube.com/fazttech",
+    url: "#!",
   },
 ];
 
