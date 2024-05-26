@@ -100,7 +100,7 @@ footer a {
   background: url("../../src/assets/images/03patoflauta.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 130vh;
+  /* height: 130vh; */
 }
 
 .pages.teaching h1 {
@@ -112,7 +112,7 @@ footer a {
   background: url("../../src/assets/images/05patoteatro.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .pages.nextShows h1 {
   font-size: 120px;
@@ -127,6 +127,15 @@ footer a {
 .pages.contact h1 {
   font-size: 120px;
   margin: 8% 0% 5% 0%;
+}
+
+.wrapper {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 600px) {
@@ -175,7 +184,7 @@ footer a {
     background: url("../../src/assets/images/03patoflauta.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
   .pages.teaching h1{
     font-size: 42px;

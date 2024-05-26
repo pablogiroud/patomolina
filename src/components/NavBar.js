@@ -15,15 +15,15 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar">
-        <div className="container">
+      <nav className="customNavbar">
+        <div className="containerNavBar">
           <div className="logo">
             <img alt="Pato's Logo" src={logo} />
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             <Hamburger />
           </div>
-          <div className={`nav-elements  ${showNavbar && 'active'}`}>
+          <div className={`customNav-elements  ${showNavbar && 'active'}`}>
             <ul>
               <li>
                 <NavLink to="/">Principal</NavLink>
