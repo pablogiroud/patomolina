@@ -4,6 +4,7 @@ import Cards from '../components/Cards'
 function Teaching() {
 
     let title = 'Talleres'
+    
     return (
         <main>
             <div className="pages teaching">
